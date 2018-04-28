@@ -1,0 +1,41 @@
+.nav ul {
+    list-style-type: none;
+    padding: 0;   
+    margin-top: 30px; 
+    float: right;
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-family: 'Lato',sans-serif;
+    color: rgb(28, 11, 40);
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.logo{
+    width: 4%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+a p{
+    display: inline;
+}
+p:hover{
+    color: #8225bc;
+}
+
+.dots{
+    width: 50%;
+    z-index: -1;
+    position: absolute;
+    margin-left: -100px;
+}
