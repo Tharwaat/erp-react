@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import footer from './Footer'
+
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
        
-      <footer/>
+      
+      
+        <Navbar img="/res/Logo.png" dots="/res/Dots.png"/>
+
+        <Footer/>
+       
       </div>
     );
   }

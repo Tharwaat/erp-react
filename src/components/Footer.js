@@ -1,13 +1,14 @@
 import React,{Component} from 'react'
-import './css/footer.css'
+import '../css/footer.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-class footer extends Component{
+class Footer extends Component{
     render(){
         return(
             <div>
             <div class ="footer">
                 <div class="botLogo">
-                    <img src="res/VectorSmartObject.png"/>
+                    <img src="../res/VectorSmartObject.png"/>
                 </div>
                 
                 <p class="text">GET IN TOUCH</p>
@@ -29,7 +30,7 @@ class footer extends Component{
                         <a><i class="fab fa-twitter fa-2x"></i></a>
                         <a><i class="fab fa-telegram-plane fa-2x"></i></a>
                     </div>
-                </div>                
+                </div>               
             </div>
             </div>
         );
@@ -38,4 +39,4 @@ class footer extends Component{
 
 }
 
-export default footer;
+export default Footer;
