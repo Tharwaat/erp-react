@@ -29,6 +29,7 @@ class Footer extends Component{
                         <a><i class="fab fa-facebook fa-2x"></i></a>
                         <a><i class="fab fa-twitter fa-2x"></i></a>
                         <a><i class="fab fa-telegram-plane fa-2x"></i></a>
+                        
                     </div>
                 </div>               
             </div>

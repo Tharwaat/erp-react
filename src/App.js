@@ -3,6 +3,7 @@ import './App.css';
 
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import ContactUS from './components/ContactUs'
 
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
       
       
         <Navbar img="/res/Logo.png" dots="/res/Dots.png"/>
-
+        
         <Footer/>
        
       </div>
