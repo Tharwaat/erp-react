@@ -12,6 +12,7 @@ export default class Navbar extends Component{
             <nav className="nav">
                 <img className="logo" src={img} alt="logo"/>
                 <ul className="navlist">
+                    <li> <Link className="navitem" to='/contact'> Contact us</Link> </li>
                     <li> <Link className="navitem" to='/media'> Media Training</Link> </li>
                     <li> <Link className="navitem" to='/photos'> Photos</Link> </li>
                     <li> <Link className="navitem" to='/events'> Events</Link> </li>
