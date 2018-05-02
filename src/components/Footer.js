@@ -5,6 +5,7 @@ class Footer extends Component{
     render(){
         return(
             <div className="foot">
+                
                 <div className ="footer">
                     <div className="botLogo">
                         <img src="../res/VectorSmartObject.png" alt='botlogo'/>
