@@ -1,6 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../css/contact.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const ContactUS = ()=>(
@@ -13,8 +12,8 @@ const ContactUS = ()=>(
 		
 		<div className ="images">
 			<h1 className = "h1SendMsg">
-                 <u>Send J</u>
-               essy Message 
+                 <u>Send Jessy Message </u>
+               
             </h1>
 			<p className = "pSendMsg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
             </p> 
@@ -34,7 +33,7 @@ const ContactUS = ()=>(
                 <br/>
 				<input type="submit" name="Send" value="Send" />
 				
-			
+			  
 			</form>
 	   </div>
       </div>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import '../css/Navbar.css';
 
 export default class Navbar extends Component{
@@ -11,15 +12,17 @@ export default class Navbar extends Component{
             <nav className="nav">
                 <img className="logo" src={img} alt="logo"/>
                 <ul className="navlist">
-                    <li><a href="" > <p>Media Training</p> </a></li>
-                    <li><a href="" > <p>Photos</p> </a></li>
-                    <li><a href="" > <p>Events</p> </a></li>
-                    <li><a href="" > <p>Public Speaking</p> </a></li>
-                    <li><a href="" > <p>TV Shows</p> </a></li>
-                    <li><a href="" > <p>Guests</p> </a></li>
-                    <li><a href="" > <p>Videos</p> </a></li>
-                    <li><a href="" > <p>Biography</p> </a></li>
-                    <li><a href="" > <p>Hello!</p> </a></li>
+                    <li> <Link className="navitem" to='/contact'> Contact us</Link> </li>
+                    <li> <Link className="navitem" to='/media'> Media Training</Link> </li>
+                    <li> <Link className="navitem" to='/photos'> Photos</Link> </li>
+                    <li> <Link className="navitem" to='/events'> Events</Link> </li>
+                    <li> <Link className="navitem" to='/public_speaking'> Public Speaking</Link> </li>
+                    <li> <Link className="navitem" to='/tv'> TV Shows</Link> </li>
+                    <li> <Link className="navitem" to='/guests'> Guests</Link> </li>
+                    <li> <Link className="navitem" to='/videos'> Videos</Link> </li>
+                    <li> <Link className="navitem" to='/biography'> Biography</Link> </li>
+                    <li> <Link className="navitem" to='/'> Hello!</Link> </li>
+                
                 </ul>
                 <img className="dots" src={dots} alt="dots"/>
             </nav>
