@@ -1,0 +1,57 @@
+.div7
+{
+    margin-top: -30px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(120, 44, 249);
+
+}
+
+.p15
+{
+  padding-left: 500px;
+  padding-top: 150px;
+  font-size: 30px;
+  font-family: 'Lato',sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-align: left;
+
+
+}
+
+.p16
+{
+  font-size: 14px;
+  font-family: 'Lato',sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: Left;
+  padding-left: 500px;
+
+}
+.div8
+{
+    width: 100%;
+    height: 670px;
+    margin-top: 10px;
+
+}
+.p20
+{
+  padding-left: 500px;
+  padding-top: 50px;
+  font-size: 30px;
+  font-family: 'Lato',sans-serif;
+  font-weight: bold;
+  color: rgb(120, 44, 249);
+  text-align: left;
+}
+.p17
+{
+  font-size: 14px;
+  font-family: 'Lato',sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: Left;
+  padding-left: 500px;
+
+}
