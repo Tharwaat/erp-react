@@ -7,6 +7,7 @@ import events from './components/Events'
 import MediaTraining from './components/MediaTraining'
 import md1 from './components/md1'
 import md2 from './components/md2'
+import TvShow from './components/TvShow'
 
 import './App.css';
 
@@ -25,6 +26,7 @@ class App extends Component {
           <Route exact path='/media' component={MediaTraining}/>
           <Route exact path='/md1' component={md1}/>
           <Route exact path='/md2' component={md2}/>
+          <Route exact path='/tv' component={TvShow}/>
         </Switch>
         
         <Footer/>
