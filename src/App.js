@@ -11,8 +11,7 @@ import md1 from './components/md1'
 import md2 from './components/md2'
 import Articles from './components/Articles'
 import ArticlesDetails from './components/ArticlesDetails'
-
-
+import TvShow from './components/TvShow'
 
 
 import './App.css';
@@ -36,6 +35,7 @@ class App extends Component {
           <Route exact path='/md2' component={md2}/>
           <Route exact path='/articles' component={Articles}/>
            <Route exact path='/articlesDetails' component={ArticlesDetails}/>
+          <Route exact path='/tv' component={TvShow}/>
         </Switch>
 
           
