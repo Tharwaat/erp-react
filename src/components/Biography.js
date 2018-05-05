@@ -34,13 +34,24 @@ const Biography = ()=>(
               {
                   MainImg: '../res/sas.png',
                   SecondImg: '../res/2001.png',
-                  paragraph: 'She holds a BA in Psychology from the American University of Beirut'
+                  paragraph: 'She holds a BA in Psychology from the American University of Beirut',
+                  ClassName1:'honors1',
+                  ClassName2:'ho1'
               },
 
               {
-                   MainImg: '../res/sas.png',
+                  MainImg: '../res/sas.png',
                   SecondImg: '../res/2001.png',
-                  paragraph: 'She holds a BA in Psychology from the American University of Beirut'
+                  paragraph: 'She holds a BA in Psychology from the American University of Beirut',
+                  ClassName1:'honors2',
+                  ClassName2:'ho2'
+              },
+               {
+                  MainImg: '../res/sas.png',
+                  SecondImg: '../res/2001.png',
+                  paragraph: 'She holds a BA in Psychology from the American University of Beirut',
+                  ClassName1:'honors3',
+                  ClassName2:'ho2'
               }
           ]
           }

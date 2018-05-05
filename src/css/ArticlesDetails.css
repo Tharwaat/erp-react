@@ -1,0 +1,36 @@
+.img11{
+  height :550px; width: 600px; background-position: left top ;
+}
+.img22{
+    height :630px; width: 950px; position: absolute;top: 80px;left: 250px;
+}
+.img33{
+    height :139px; width: 290px; position: absolute;top: 410px;left:250px;
+}
+.headline{
+    font-size: 80px;
+    word-wrap: break-word;
+    width:100%
+}
+.paragraph1{
+    font-size:35px ; 
+    word-wrap: break-word;
+    width:100%
+
+}
+.headline2{
+       font-size: 80px;
+    word-wrap: break-word;
+    width:100%;
+    text-decoration: underline rgb(74 98 220);
+}
+.paragraph1{
+    margin: 10px
+}
+.pp{
+    font-size: 35px
+}
+.ArticlesDetails{
+    position: center;
+     margin: 20px
+}

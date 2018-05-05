@@ -6,26 +6,26 @@ class Awards extends Component {
    render(){
        const AwardSection = this.props.AwardSection.map((anObjectMapped, index) => {
     return (
-       <div >
+       <div className ={anObjectMapped.ClassName1}>
             <img src={anObjectMapped.MainImg} width="500px"/>
-            <img class="ho2" src={anObjectMapped.SecondImg}/>
+            <img className={anObjectMapped.ClassName2} src={anObjectMapped.SecondImg}/>
             <p>{anObjectMapped.paragraph}</p>
-            </div>
+      </div>
     );
 })
 
        return(
          <div>
-            <section class="fourth">          
+            <section className="fourth">          
 
             <div class="awards">
                 <img src="../res/Rectangle10copy3.png" width="500px"/>
             </div>
 
-            <div class="honors">
-                {AwardSection}                
-                   
-            </div>
+            <div >
+                {AwardSection}
+
+                    </div>  
             
            
          </section>

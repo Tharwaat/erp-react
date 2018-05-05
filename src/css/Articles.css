@@ -1,0 +1,115 @@
+
+.row {
+    
+    
+    width:100%;
+    padding-bottom: 10%;
+
+  
+}
+.imgg {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+img.image1
+{
+    height :550px; width: 630px; background-position: left top ;
+}
+img.image2
+{
+    height :708px; width: 460px; position: absolute;top: 80px;left: 250px; 
+}
+img.image3
+{
+   height :100px; width: 290px; position: absolute;top: 450px;left:250px; 
+}
+img.image4
+{
+    height :550px; width: 630px;  background-position:top right;
+}
+img.image5
+{
+   height :708px; width: 460px; position: absolute;top: 80px;left:120px;
+}
+img.image6
+{
+  height :100px; width: 290px; position: absolute;top: 450px;left:290px; 
+}
+
+h2.headLine{
+font-family: 'Arial Rounded MT Bold '; 
+font-size:30px;
+ /*background-image: -webkit-gradient( linear, right top, left bottom, from(rgb(74 98 220)), to(rgb(108 18 211)) ); 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+ position:center*/
+ -webkit-text-fill-color: rgb(74 98 220);
+ font-weight: bold;
+ position:center
+ 
+}
+p.headLine{
+font-family: 'Arial Rounded MT Bold '; 
+font-size:30px;
+ /*background-image: -webkit-gradient( linear, right top, left bottom, from(rgb(74 98 220)), to(rgb(108 18 211)) ); 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+ position:center*/
+ -webkit-text-fill-color: rgb(74 98 220);
+ font-weight: bold;
+ position:center;
+
+ font-size: 21px
+ 
+}
+h2.headLine2{
+font-family: 'Arial Rounded MT Bold '; 
+font-size:20px;
+ /*background-image: -webkit-gradient( linear, right top, left bottom, from(rgb(74 98 220)), to(rgb(108 18 211)) ); 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+ position:center*/
+ -webkit-text-fill-color: rgb(74 98 220);
+ font-weight: bold;
+ position:center
+ 
+}
+p.date{
+font-weight :bold 
+}
+div.col-lg-6{
+    width : 950px;
+ 
+}
+div.padding2{
+    padding-left: 30%;
+}
+div.padding{
+    /*padding-right: 50% ;*/ 
+
+    padding-left: 50%;
+     padding-top: 10%;
+  
+}
+p.paragraph2{
+    font-size:24px ; 
+    word-wrap: break-word;
+    width:100%
+
+}
+button.btn{
+    background-color: rgb(89 62 216);color: white
+}
+a.barLink{
+    padding :10px
+}
+
+
+.button1{
+    width:310px; 
+    height:90px;
+     border-color: rgb(89 62 216) ; 
+     background-color: white
+}

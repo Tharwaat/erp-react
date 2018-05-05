@@ -18,7 +18,7 @@ export default class Navbar extends Component{
                     <li> <Link className="navitem" to='/events'> Events</Link> </li>
                     <li> <Link className="navitem" to='/public_speaking'> Public Speaking</Link> </li>
                     <li> <Link className="navitem" to='/tv'> TV Shows</Link> </li>
-                    <li> <Link className="navitem" to='/guests'> Guests</Link> </li>
+                    <li> <Link className="navitem" to='/articles'> Articles</Link> </li>
                     <li> <Link className="navitem" to='/videos'> Videos</Link> </li>
                     <li> <Link className="navitem" to='/biography'> Biography</Link> </li>
                     <li> <Link className="navitem" to='/'> Hello!</Link> </li>
